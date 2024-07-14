@@ -1,0 +1,73 @@
+body{
+    text-align: center;
+    background-color: #3333;
+}
+header{
+    padding: 10px;
+    background-color: aquamarine;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: flex-start; /* Align items to the start (left) */
+    margin: 10px 0; /* Spacing around the button container */
+}
+
+.btn {
+    padding: 10px 20px; /* Padding inside the button */
+    background-color: #4CAF50; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove button border */
+    cursor: pointer; /* Change cursor on hover */
+    border-radius: 8px; /* Add rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow */
+    transition: background-color 0.3s ease, box-shadow 0.5s ease; /* Smooth transition */
+    text-align: center; /* Center text inside the button */
+}
+
+.btn:hover {
+    background-color: #cdf3cf; /* Change background color on hover */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3); /* Enhance shadow on hover */
+    color: #4CAF50;
+}
+
+/* .btn:active { */
+    /* background-color: #3e8e41; Darker background when active */
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); Reduce shadow on active */
+    /* transform: translateY(4px); Move button down slightly */
+/* } */
+main {
+    display: inline-block;
+    border-style: dashed;
+    border-color: crimson;
+    padding: 20px;
+    margin: 10px auto; 
+    min-width: 100px; 
+    max-width: 500px; 
+    width: 80%;
+    background-color: rgb(222, 202, 195);
+     
+}
+
+img {
+    width: 80%; 
+    min-width: 100px; 
+    max-width: 100%; 
+}
+
+.detail {
+    background-color: rgba(255, 255, 255, 0.3);
+    height: 70px;
+    overflow-y: scroll;
+    margin: 10px 0; 
+    text-align: left;
+    min-width: 100px; 
+    max-width: 100%; 
+    padding: 10px; 
+}
+
+.price {
+    text-align: left;
+    font-weight: 1000;
+    margin-top: 10px; 
+}

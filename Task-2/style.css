@@ -1,0 +1,61 @@
+body {
+    background-color: gainsboro;
+    margin: 0px;
+}
+
+.header {
+    background-color: black;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+ul {
+    color: white;
+    list-style: none;
+    padding: 0; 
+    margin: 0; 
+}
+
+li {
+    display: inline;
+    margin: 15px;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    position: relative;
+    padding: 5px 0; /* Add padding for spacing */
+}
+
+li a::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+li a:hover::before {
+    visibility: visible;
+    width: 100%;
+}
+
+li a:hover {
+    color: white; /* Ensure color stays white on hover */
+}
+
+.main {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.text {
+    margin-left: 40px;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
